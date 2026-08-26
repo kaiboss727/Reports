@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>К1</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; min-height: 100%; font-family: -apple-system, system-ui, Arial, sans-serif; background:#1b1b1f; color:#eee; }
+  header { padding: 18px 16px 10px; }
+  h1 { margin: 0; font-size: 20px; font-weight: 700; color: #ff7676; }
+  .sub { margin-top: 4px; font-size: 14px; color: #9aa; }
+  main { padding: 6px 12px 24px; }
+  a.row { display: flex; align-items: center; justify-content: space-between; padding: 16px 14px; margin: 8px 0; min-height: 44px; background:#26262b; border:1px solid #3a3a42; border-radius: 12px; color:#eee; text-decoration:none; font-size: 17px; font-weight: 600; }
+  a.row:active { background:#33333a; }
+  a.row .arr { color:#5aa9e6; font-size: 20px; }
+  section + section { margin-top: 18px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .5px; color:#9aa; margin: 0 0 6px 4px; font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Корпус 1</h1>
+  <div class="sub">выбери этаж</div>
+</header>
+<main>
+  <section>
+    <h2>Этажи</h2>
+    <div id="floors"></div>
+  </section>
+  <section>
+    <h2>Прочее</h2>
+    <a class="row" href="Структура_АЛС_К1.html"><span>Структура АЛС</span><span class="arr">›</span></a>
+  </section>
+</main>
+<script>
+  var floors = [2,3,4,5,6,7,8,9,10];
+  var box = document.getElementById('floors');
+  floors.forEach(function(n){
+    var a = document.createElement('a');
+    a.className = 'row';
+    a.href = 'К1_Эт.' + n + '.html';
+    a.innerHTML = '<span>Этаж ' + n + '</span><span class="arr">›</span>';
+    box.appendChild(a);
+  });
+</script>
+</body>
+</html>
