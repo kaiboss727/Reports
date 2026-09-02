@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Структура АЛС · К7</title>
+<style>
+  .pmap { background:#fff6e0; border:1px solid #e0c070; border-radius:10px;
+          padding:10px 12px; margin:0 0 12px; font-size:15px; line-height:1.5; color:#5a4510; }
+  .pmap span { color:#7a6a3a; font-size:14px; }
+  .chip .loc { font-size:0.82em; opacity:.75; font-weight:600; }
+  :root { --bg:#fff; --fg:#111; --mut:#667; --line:#d8dde3; --head:#f2f5f8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171a; --fg:#e8ecef; --mut:#95a1ad; --line:#2c3238; --head:#1c2126; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg);
+         font:16px/1.45 -apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  h1 { font-size:20px; margin:0 0 14px; }
+  .wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:280px; }
+  th,td { padding:12px 10px; border-bottom:1px solid var(--line); text-align:left; }
+  th { background:var(--head); font-size:13px; text-transform:uppercase;
+       letter-spacing:.04em; color:var(--mut); position:sticky; top:0; }
+  .fl { font-weight:700; width:22%; font-variant-numeric:tabular-nums; }
+  .chip { display:inline-block; min-width:66px; padding:7px 12px; border-radius:8px;
+          border:1px solid transparent; font-weight:700; font-size:17px;
+          font-variant-numeric:tabular-nums; text-align:center; }
+  .chip.none { background:transparent; color:var(--mut); border-color:var(--line);
+               font-weight:400; }
+  tr:last-child td { border-bottom:none; }
+</style></head><body>
+<h1>Структура АЛС · корпус 7</h1>
+<div class="pmap"><b>В FireSec номера приборов другие:</b> они меньше проектных на 93. В каждой клетке ниже — <b>номер по проекту &rarr; номер в FireSec</b>.</div>
+<div class="wrap"><table>
+<thead><tr><th>Этаж</th><th>АПС</th><th>СПА</th></tr></thead>
+<tbody>
+<tr><td class="fl">12</td><td><span class="chip" style="background:hsl(145,72%,78%);color:hsl(145,62%,24%);border-color:hsl(145,58%,62%)">95.2 <span class="loc">&rarr; 2.2</span></span></td><td><span class="chip" style="background:hsl(239,72%,78%);color:hsl(239,62%,24%);border-color:hsl(239,58%,62%)">97.2 <span class="loc">&rarr; 4.2</span></span></td></tr>
+<tr><td class="fl">11</td><td><span class="chip" style="background:hsl(145,72%,78%);color:hsl(145,62%,24%);border-color:hsl(145,58%,62%)">95.2 <span class="loc">&rarr; 2.2</span></span></td><td><span class="chip" style="background:hsl(239,72%,78%);color:hsl(239,62%,24%);border-color:hsl(239,58%,62%)">97.2 <span class="loc">&rarr; 4.2</span></span></td></tr>
+<tr><td class="fl">10</td><td><span class="chip" style="background:hsl(145,72%,78%);color:hsl(145,62%,24%);border-color:hsl(145,58%,62%)">95.2 <span class="loc">&rarr; 2.2</span></span></td><td><span class="chip" style="background:hsl(239,72%,90%);color:hsl(239,62%,28%);border-color:hsl(239,58%,74%)">97.1 <span class="loc">&rarr; 4.1</span></span></td></tr>
+<tr><td class="fl">9</td><td><span class="chip" style="background:hsl(145,72%,90%);color:hsl(145,62%,28%);border-color:hsl(145,58%,74%)">95.1 <span class="loc">&rarr; 2.1</span></span></td><td><span class="chip" style="background:hsl(239,72%,90%);color:hsl(239,62%,28%);border-color:hsl(239,58%,74%)">97.1 <span class="loc">&rarr; 4.1</span></span></td></tr>
+<tr><td class="fl">8</td><td><span class="chip" style="background:hsl(145,72%,90%);color:hsl(145,62%,28%);border-color:hsl(145,58%,74%)">95.1 <span class="loc">&rarr; 2.1</span></span></td><td><span class="chip" style="background:hsl(239,72%,90%);color:hsl(239,62%,28%);border-color:hsl(239,58%,74%)">97.1 <span class="loc">&rarr; 4.1</span></span></td></tr>
+<tr><td class="fl">7</td><td><span class="chip" style="background:hsl(145,72%,90%);color:hsl(145,62%,28%);border-color:hsl(145,58%,74%)">95.1 <span class="loc">&rarr; 2.1</span></span></td><td><span class="chip" style="background:hsl(192,72%,78%);color:hsl(192,62%,24%);border-color:hsl(192,58%,62%)">96.2 <span class="loc">&rarr; 3.2</span></span></td></tr>
+<tr><td class="fl">6</td><td><span class="chip" style="background:hsl(145,72%,90%);color:hsl(145,62%,28%);border-color:hsl(145,58%,74%)">95.1 <span class="loc">&rarr; 2.1</span></span></td><td><span class="chip" style="background:hsl(192,72%,78%);color:hsl(192,62%,24%);border-color:hsl(192,58%,62%)">96.2 <span class="loc">&rarr; 3.2</span></span></td></tr>
+<tr><td class="fl">5</td><td><span class="chip" style="background:hsl(98,72%,78%);color:hsl(98,62%,24%);border-color:hsl(98,58%,62%)">94.2 <span class="loc">&rarr; 1.2</span></span></td><td><span class="chip" style="background:hsl(192,72%,78%);color:hsl(192,62%,24%);border-color:hsl(192,58%,62%)">96.2 <span class="loc">&rarr; 3.2</span></span></td></tr>
+<tr><td class="fl">4</td><td><span class="chip" style="background:hsl(98,72%,78%);color:hsl(98,62%,24%);border-color:hsl(98,58%,62%)">94.2 <span class="loc">&rarr; 1.2</span></span></td><td><span class="chip" style="background:hsl(192,72%,78%);color:hsl(192,62%,24%);border-color:hsl(192,58%,62%)">96.2 <span class="loc">&rarr; 3.2</span></span></td></tr>
+<tr><td class="fl">3</td><td><span class="chip" style="background:hsl(98,72%,78%);color:hsl(98,62%,24%);border-color:hsl(98,58%,62%)">94.2 <span class="loc">&rarr; 1.2</span></span></td><td><span class="chip" style="background:hsl(192,72%,90%);color:hsl(192,62%,28%);border-color:hsl(192,58%,74%)">96.1 <span class="loc">&rarr; 3.1</span></span></td></tr>
+<tr><td class="fl">2</td><td><span class="chip" style="background:hsl(98,72%,78%);color:hsl(98,62%,24%);border-color:hsl(98,58%,62%)">94.2 <span class="loc">&rarr; 1.2</span></span></td><td><span class="chip" style="background:hsl(192,72%,90%);color:hsl(192,62%,28%);border-color:hsl(192,58%,74%)">96.1 <span class="loc">&rarr; 3.1</span></span></td></tr>
+</tbody></table></div>
+</body></html>

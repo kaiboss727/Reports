@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Структура АЛС · К6</title>
+<style>
+  .pmap { background:#fff6e0; border:1px solid #e0c070; border-radius:10px;
+          padding:10px 12px; margin:0 0 12px; font-size:15px; line-height:1.5; color:#5a4510; }
+  .pmap span { color:#7a6a3a; font-size:14px; }
+  .chip .loc { font-size:0.82em; opacity:.75; font-weight:600; }
+  :root { --bg:#fff; --fg:#111; --mut:#667; --line:#d8dde3; --head:#f2f5f8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171a; --fg:#e8ecef; --mut:#95a1ad; --line:#2c3238; --head:#1c2126; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg);
+         font:16px/1.45 -apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+  h1 { font-size:20px; margin:0 0 14px; }
+  .wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:280px; }
+  th,td { padding:12px 10px; border-bottom:1px solid var(--line); text-align:left; }
+  th { background:var(--head); font-size:13px; text-transform:uppercase;
+       letter-spacing:.04em; color:var(--mut); position:sticky; top:0; }
+  .fl { font-weight:700; width:22%; font-variant-numeric:tabular-nums; }
+  .chip { display:inline-block; min-width:66px; padding:7px 12px; border-radius:8px;
+          border:1px solid transparent; font-weight:700; font-size:17px;
+          font-variant-numeric:tabular-nums; text-align:center; }
+  .chip.none { background:transparent; color:var(--mut); border-color:var(--line);
+               font-weight:400; }
+  tr:last-child td { border-bottom:none; }
+</style></head><body>
+<h1>Структура АЛС · корпус 6</h1>
+
+<div class="wrap"><table>
+<thead><tr><th>Этаж</th><th>АПС</th><th>СПА</th></tr></thead>
+<tbody>
+<tr><td class="fl">33</td><td><span class="chip" style="background:hsl(129,72%,90%);color:hsl(129,62%,28%);border-color:hsl(129,58%,74%)">87.1</span></td><td><span class="chip" style="background:hsl(51,72%,90%);color:hsl(51,62%,28%);border-color:hsl(51,58%,74%)">93.1</span></td></tr>
+<tr><td class="fl">32</td><td><span class="chip" style="background:hsl(82,72%,78%);color:hsl(82,62%,24%);border-color:hsl(82,58%,62%)">86.2</span></td><td><span class="chip" style="background:hsl(51,72%,90%);color:hsl(51,62%,28%);border-color:hsl(51,58%,74%)">93.1</span></td></tr>
+<tr><td class="fl">31</td><td><span class="chip" style="background:hsl(82,72%,90%);color:hsl(82,62%,28%);border-color:hsl(82,58%,74%)">86.1</span></td><td><span class="chip" style="background:hsl(4,72%,78%);color:hsl(4,62%,24%);border-color:hsl(4,58%,62%)">92.2</span></td></tr>
+<tr><td class="fl">30</td><td><span class="chip" style="background:hsl(35,72%,78%);color:hsl(35,62%,24%);border-color:hsl(35,58%,62%)">85.2</span></td><td><span class="chip" style="background:hsl(4,72%,90%);color:hsl(4,62%,28%);border-color:hsl(4,58%,74%)">92.1</span></td></tr>
+<tr><td class="fl">29</td><td><span class="chip" style="background:hsl(35,72%,90%);color:hsl(35,62%,28%);border-color:hsl(35,58%,74%)">85.1</span></td><td><span class="chip" style="background:hsl(317,72%,78%);color:hsl(317,62%,24%);border-color:hsl(317,58%,62%)">91.2</span></td></tr>
+<tr><td class="fl">28</td><td><span class="chip" style="background:hsl(348,72%,78%);color:hsl(348,62%,24%);border-color:hsl(348,58%,62%)">84.2</span></td><td><span class="chip" style="background:hsl(317,72%,90%);color:hsl(317,62%,28%);border-color:hsl(317,58%,74%)">91.1</span></td></tr>
+<tr><td class="fl">27</td><td><span class="chip" style="background:hsl(348,72%,90%);color:hsl(348,62%,28%);border-color:hsl(348,58%,74%)">84.1</span></td><td><span class="chip" style="background:hsl(270,72%,78%);color:hsl(270,62%,24%);border-color:hsl(270,58%,62%)">90.2</span></td></tr>
+<tr><td class="fl">26</td><td><span class="chip" style="background:hsl(301,72%,78%);color:hsl(301,62%,24%);border-color:hsl(301,58%,62%)">83.2</span></td><td><span class="chip" style="background:hsl(270,72%,90%);color:hsl(270,62%,28%);border-color:hsl(270,58%,74%)">90.1</span></td></tr>
+<tr><td class="fl">25</td><td><span class="chip" style="background:hsl(301,72%,90%);color:hsl(301,62%,28%);border-color:hsl(301,58%,74%)">83.1</span></td><td><span class="chip" style="background:hsl(223,72%,78%);color:hsl(223,62%,24%);border-color:hsl(223,58%,62%)">89.2</span></td></tr>
+<tr><td class="fl">24</td><td><span class="chip" style="background:hsl(254,72%,78%);color:hsl(254,62%,24%);border-color:hsl(254,58%,62%)">82.2</span></td><td><span class="chip" style="background:hsl(223,72%,90%);color:hsl(223,62%,28%);border-color:hsl(223,58%,74%)">89.1</span></td></tr>
+<tr><td class="fl">23</td><td><span class="chip" style="background:hsl(254,72%,90%);color:hsl(254,62%,28%);border-color:hsl(254,58%,74%)">82.1</span></td><td><span class="chip" style="background:hsl(176,72%,78%);color:hsl(176,62%,24%);border-color:hsl(176,58%,62%)">88.2</span></td></tr>
+<tr><td class="fl">22</td><td><span class="chip" style="background:hsl(207,72%,90%);color:hsl(207,62%,28%);border-color:hsl(207,58%,74%)">81.1</span></td><td><span class="chip" style="background:hsl(176,72%,90%);color:hsl(176,62%,28%);border-color:hsl(176,58%,74%)">88.1</span></td></tr>
+<tr><td class="fl">21</td><td><span class="chip" style="background:hsl(222,72%,90%);color:hsl(222,62%,28%);border-color:hsl(222,58%,74%)">66.1</span></td><td><span class="chip" style="background:hsl(66,72%,78%);color:hsl(66,62%,24%);border-color:hsl(66,58%,62%)">78.2</span></td></tr>
+<tr><td class="fl">20</td><td><span class="chip" style="background:hsl(175,72%,78%);color:hsl(175,62%,24%);border-color:hsl(175,58%,62%)">65.2</span></td><td><span class="chip" style="background:hsl(66,72%,90%);color:hsl(66,62%,28%);border-color:hsl(66,58%,74%)">78.1</span></td></tr>
+<tr><td class="fl">19</td><td><span class="chip" style="background:hsl(175,72%,90%);color:hsl(175,62%,28%);border-color:hsl(175,58%,74%)">65.1</span></td><td><span class="chip" style="background:hsl(19,72%,90%);color:hsl(19,62%,28%);border-color:hsl(19,58%,74%)">77.1</span></td></tr>
+<tr><td class="fl">18</td><td><span class="chip" style="background:hsl(128,72%,78%);color:hsl(128,62%,24%);border-color:hsl(128,58%,62%)">64.2</span></td><td><span class="chip" style="background:hsl(332,72%,78%);color:hsl(332,62%,24%);border-color:hsl(332,58%,62%)">76.2</span></td></tr>
+<tr><td class="fl">17</td><td><span class="chip" style="background:hsl(128,72%,90%);color:hsl(128,62%,28%);border-color:hsl(128,58%,74%)">64.1</span></td><td><span class="chip" style="background:hsl(332,72%,90%);color:hsl(332,62%,28%);border-color:hsl(332,58%,74%)">76.1</span></td></tr>
+<tr><td class="fl">16</td><td><span class="chip" style="background:hsl(81,72%,78%);color:hsl(81,62%,24%);border-color:hsl(81,58%,62%)">63.2</span></td><td><span class="chip" style="background:hsl(285,72%,78%);color:hsl(285,62%,24%);border-color:hsl(285,58%,62%)">75.2</span></td></tr>
+<tr><td class="fl">15</td><td><span class="chip" style="background:hsl(81,72%,90%);color:hsl(81,62%,28%);border-color:hsl(81,58%,74%)">63.1</span></td><td><span class="chip" style="background:hsl(285,72%,90%);color:hsl(285,62%,28%);border-color:hsl(285,58%,74%)">75.1</span></td></tr>
+<tr><td class="fl">14</td><td><span class="chip" style="background:hsl(34,72%,78%);color:hsl(34,62%,24%);border-color:hsl(34,58%,62%)">62.2</span></td><td><span class="chip" style="background:hsl(238,72%,78%);color:hsl(238,62%,24%);border-color:hsl(238,58%,62%)">74.2</span></td></tr>
+<tr><td class="fl">13</td><td><span class="chip" style="background:hsl(34,72%,90%);color:hsl(34,62%,28%);border-color:hsl(34,58%,74%)">62.1</span></td><td><span class="chip" style="background:hsl(238,72%,90%);color:hsl(238,62%,28%);border-color:hsl(238,58%,74%)">74.1</span></td></tr>
+<tr><td class="fl">12</td><td><span class="chip" style="background:hsl(347,72%,78%);color:hsl(347,62%,24%);border-color:hsl(347,58%,62%)">61.2</span></td><td><span class="chip" style="background:hsl(191,72%,78%);color:hsl(191,62%,24%);border-color:hsl(191,58%,62%)">73.2</span></td></tr>
+<tr><td class="fl">11</td><td><span class="chip" style="background:hsl(347,72%,90%);color:hsl(347,62%,28%);border-color:hsl(347,58%,74%)">61.1</span></td><td><span class="chip" style="background:hsl(191,72%,90%);color:hsl(191,62%,28%);border-color:hsl(191,58%,74%)">73.1</span></td></tr>
+<tr><td class="fl">10</td><td><span class="chip" style="background:hsl(300,72%,78%);color:hsl(300,62%,24%);border-color:hsl(300,58%,62%)">60.2</span></td><td><span class="chip" style="background:hsl(144,72%,78%);color:hsl(144,62%,24%);border-color:hsl(144,58%,62%)">72.2</span></td></tr>
+<tr><td class="fl">9</td><td><span class="chip" style="background:hsl(300,72%,90%);color:hsl(300,62%,28%);border-color:hsl(300,58%,74%)">60.1</span></td><td><span class="chip" style="background:hsl(144,72%,90%);color:hsl(144,62%,28%);border-color:hsl(144,58%,74%)">72.1</span></td></tr>
+<tr><td class="fl">8</td><td><span class="chip" style="background:hsl(253,72%,78%);color:hsl(253,62%,24%);border-color:hsl(253,58%,62%)">59.2</span></td><td><span class="chip" style="background:hsl(97,72%,78%);color:hsl(97,62%,24%);border-color:hsl(97,58%,62%)">71.2</span></td></tr>
+<tr><td class="fl">7</td><td><span class="chip" style="background:hsl(253,72%,90%);color:hsl(253,62%,28%);border-color:hsl(253,58%,74%)">59.1</span></td><td><span class="chip" style="background:hsl(97,72%,90%);color:hsl(97,62%,28%);border-color:hsl(97,58%,74%)">71.1</span></td></tr>
+<tr><td class="fl">6</td><td><span class="chip" style="background:hsl(206,72%,78%);color:hsl(206,62%,24%);border-color:hsl(206,58%,62%)">58.2</span></td><td><span class="chip" style="background:hsl(50,72%,78%);color:hsl(50,62%,24%);border-color:hsl(50,58%,62%)">70.2</span></td></tr>
+<tr><td class="fl">5</td><td><span class="chip" style="background:hsl(206,72%,90%);color:hsl(206,62%,28%);border-color:hsl(206,58%,74%)">58.1</span></td><td><span class="chip" style="background:hsl(50,72%,90%);color:hsl(50,62%,28%);border-color:hsl(50,58%,74%)">70.1</span></td></tr>
+<tr><td class="fl">4</td><td><span class="chip" style="background:hsl(159,72%,78%);color:hsl(159,62%,24%);border-color:hsl(159,58%,62%)">57.2</span></td><td><span class="chip" style="background:hsl(3,72%,78%);color:hsl(3,62%,24%);border-color:hsl(3,58%,62%)">69.2</span></td></tr>
+<tr><td class="fl">3</td><td><span class="chip" style="background:hsl(159,72%,90%);color:hsl(159,62%,28%);border-color:hsl(159,58%,74%)">57.1</span></td><td><span class="chip" style="background:hsl(3,72%,90%);color:hsl(3,62%,28%);border-color:hsl(3,58%,74%)">69.1</span></td></tr>
+<tr><td class="fl">2</td><td><span class="chip" style="background:hsl(112,72%,78%);color:hsl(112,62%,24%);border-color:hsl(112,58%,62%)">56.2</span></td><td><span class="chip" style="background:hsl(316,72%,78%);color:hsl(316,62%,24%);border-color:hsl(316,58%,62%)">68.2</span></td></tr>
+<tr><td class="fl">1</td><td><span class="chip" style="background:hsl(112,72%,90%);color:hsl(112,62%,28%);border-color:hsl(112,58%,74%)">56.1</span></td><td><span class="chip" style="background:hsl(316,72%,90%);color:hsl(316,62%,28%);border-color:hsl(316,58%,74%)">68.1</span></td></tr>
+</tbody></table></div>
+</body></html>
